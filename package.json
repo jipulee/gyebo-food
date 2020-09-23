@@ -4,17 +4,19 @@
   "description": "Tailwind css framework with Vue.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css":"tailwindcss build src/styles.css -o public/styles.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jipulee/gyebo-food.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jipulee/gyebo-food/issues"
   },
-  "homepage": "https://github.com/jipulee/gyebo-food#readme"
+  "homepage": "https://github.com/jipulee/gyebo-food#readme",
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  }
 }
